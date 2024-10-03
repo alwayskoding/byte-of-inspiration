@@ -1,0 +1,25 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav stencil-router-link {
+    margin-right: 15px; /* Adds space between links */
+    text-decoration: none; /* Removes underline from links */
+    color: #fff !important;
+  }
+  
+  nav stencil-router-link:hover {
+    text-decoration: underline; /* Adds underline on hover for better UX */
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
